@@ -1,0 +1,51 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.8.5",
+    "heartbeatAt": "2023-06-05T12:09:06.754254",
+    "startedAt": "2023-06-05T12:08:59.456656",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--wandb_project",
+        "nyc-taxi-dataload",
+        "--wandb_entity",
+        "svk-shreyaskale",
+        "--raw_data_path",
+        "data",
+        "--dest_path",
+        "./output"
+    ],
+    "state": "running",
+    "program": "preprocess_data.py",
+    "codePath": "02-experiment-tracking\\homework-wandb\\preprocess_data.py",
+    "git": {
+        "remote": "https://github.com/DataTalksClub/mlops-zoomcamp.git",
+        "commit": "4befdaac5bdae6c37464dc1c18916194b86d8b7c"
+    },
+    "email": "6560607+KaleShreyas@users.noreply.github.com",
+    "root": "C:/Users/svksh/Documents/Learning/zoomcamp/mlops-zoomcamp",
+    "host": "Shreyas",
+    "username": "svksh",
+    "executable": "C:\\Users\\svksh\\wandb\\Scripts\\python.exe",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2400.0,
+        "min": 0.0,
+        "max": 2400.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400.0,
+            "min": 0.0,
+            "max": 2400.0
+        }
+    ],
+    "disk": {
+        "total": 237.10836791992188,
+        "used": 227.25563430786133
+    },
+    "memory": {
+        "total": 3.8801002502441406
+    }
+}
